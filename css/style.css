@@ -28,3 +28,28 @@ header{
 #header-container .ms_nav .container-fluid{
     padding: 0 0;
 }
+
+/*NAV BAR*/
+.search{
+    margin: auto 0 auto 10px;
+}
+
+.search img{
+    height: 25px;
+    object-position: 50% 50%;
+}
+
+.btn-pill{
+    border-radius: 999px;
+}
+
+.navbar-nav li{
+    padding: 0 5px;
+}
+
+.navbar{
+    padding: 0 5px;
+    position: sticky;
+    top: 0;
+    z-index: 888;
+}
