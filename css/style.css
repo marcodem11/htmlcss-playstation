@@ -1,0 +1,30 @@
+/*HEADER*/
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: contents;
+}
+
+.ms_brand_nav{
+    background-color: black;
+}
+
+.ms_brand_nav img{
+    height: 15px;
+    object-position: center;
+    object-fit: contain;
+    display: block;
+}
+
+#header-container .ms_nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#header-container .ms_nav .container-fluid{
+    padding: 0 0;
+}
