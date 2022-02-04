@@ -53,3 +53,28 @@ header{
     top: 0;
     z-index: 888;
 }
+
+/* IMG GIOCO */
+
+.game_banner{
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game_returnal{
+    background-image: url(../img/img/jumbo-bg.png);
+}
+
+.game_takes{
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.game_banner .row{
+    min-height: 590px;
+    color: white;
+}
+
+.game_banner .row img {
+    max-width: 250px;
+}
