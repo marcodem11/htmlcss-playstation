@@ -100,7 +100,7 @@ header{
     outline-offset: 2px;
 }
 
-/* PS5 */
+/* IMG PS5 */
 
 .row .thumb_wrapper{
     max-width: 130px; 
@@ -158,4 +158,19 @@ header{
     }
 
     .pplusbanner{display: none;}
+}
+
+/* NEW COME OUT */
+
+#new_release{
+    color: white;
+}
+
+.bg_dark{
+    background-color: #131313;
+}
+
+.ms_rounded{
+    border-radius: 15px;
+    overflow: hidden;
 }
