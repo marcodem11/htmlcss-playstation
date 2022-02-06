@@ -78,3 +78,25 @@ header{
 .game_banner .row img {
     max-width: 250px;
 }
+
+/* LISTA GIOCHI */
+
+.game_thumbnails .game_thumb{
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: all 0.1s ease-in-out;
+}
+
+.game_thumb:hover{
+    transition: 50ms ease-in-out;
+    transform: translateY(-20px);
+}
+
+
+.game_thumb.active, .game_thumb:hover{
+    border: 1px solid white;
+    outline: 2px solid #0070D1;
+    outline-offset: 2px;
+}
+
