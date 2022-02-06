@@ -100,3 +100,62 @@ header{
     outline-offset: 2px;
 }
 
+/* PS5 */
+
+.row .thumb_wrapper{
+    max-width: 130px; 
+    max-height: 130px;
+    object-fit: contain;
+    object-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.selector::after{
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #0070D1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0%;
+    bottom: 0;
+    margin: 0 5px;
+    
+}
+
+.selector_active::after{
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #0070D1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 100%;
+    margin: 0 5px;
+    bottom: 0;
+}
+
+.selector:hover::after{
+    opacity: 100%;
+}
+
+.opacity{
+    opacity: 70%;
+}
+
+.opacity:hover{
+    opacity: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    #PS5 .row:last-child p{
+        display: none;
+    }
+
+    .pplusbanner{display: none;}
+}
