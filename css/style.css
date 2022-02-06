@@ -208,3 +208,20 @@ header{
         display: none;
     }
 }
+
+/* PS NOW */
+.now_container{
+    background-color: #161c3b;
+}
+
+
+/* SOCIAL */
+.social_card img{
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.social_card img:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    animation: social_move 1s ease-in-out infinite;
+}
