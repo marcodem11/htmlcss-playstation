@@ -225,3 +225,46 @@ header{
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     animation: social_move 1s ease-in-out infinite;
 }
+
+/*FOOTER*/
+.section_footer{
+    background-color: #00439C;
+    color: white;
+}
+
+.ps_logo_footer img{
+    width: 100px;
+}
+
+.footer_language{
+    cursor: pointer;
+}
+
+.footer_link ul li{
+    padding: 3px 0;
+}
+
+.footer_link ul li:hover{
+    text-decoration: underline;
+}
+
+.footer_language img{
+    width: 20px;
+}
+
+.sie_footer img{
+    width: 130px;
+}
+
+.sie_text{
+    font-size: 14px;
+}
+
+.sie_link{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.sie_link:hover{
+    opacity: 1;
+}
